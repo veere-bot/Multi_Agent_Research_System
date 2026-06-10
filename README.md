@@ -20,9 +20,9 @@ The pipeline ensures that research is not only gathered but also refined and val
 
 ```
 .
-├── main.py                # Entry point of the pipeline
+├── tools.py                # Entry point of the pipeline
 ├── agents.py              # Contains agent builders (search, reader, etc.)
-├── chains.py              # Writer and critic chains
+├── pipeline.py              # Writer and critic chains
 └── README.md
 ```
 
@@ -80,7 +80,7 @@ run_research_pipeline(topic: str) -> dict
 Run the script:
 
 ```bash
-python main.py
+streamlit run app.py
 ```
 
 Enter your topic when prompted:

@@ -1,0 +1,41 @@
+# Core LLM + LangChain ecosystem
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+
+# OpenAI
+openai>=1.30.0
+
+# Tavily search tool
+tavily-python>=0.3.0
+
+# Web scraping
+beautifulsoup4>=4.12.3
+requests>=2.31.0
+lxml>=5.2.0
+
+# Async + HTTP
+aiohttp>=3.9.5
+httpx>=0.27.0
+
+# Environment & config
+python-dotenv>=1.0.1
+pydantic>=2.7.0
+
+# Tokenization / parsing helpers
+tiktoken>=0.7.0
+
+# Logging & utilities
+tenacity>=8.2.3
+
+# Optional (recommended for structured outputs & pipelines)
+orjson>=3.10.0
+
+# If you're building a simple API (optional)
+fastapi>=0.111.0
+uvicorn>=0.30.0
+
+# If you want CLI interaction (optional)
+rich>=13.7.1
+typer>=0.12.3

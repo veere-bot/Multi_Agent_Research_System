@@ -1,3 +1,4 @@
+<img width="1668" height="877" alt="Screenshot 2026-06-10 152130" src="https://github.com/user-attachments/assets/cd010674-0f0c-4e76-9844-bbb57654e58c" />
 # 🧠 AI Research Pipeline
 
 An automated multi-agent research pipeline that gathers, analyzes, and refines information on a given topic using specialized AI agents.
